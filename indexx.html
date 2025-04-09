@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Watch and discover the most popular videos on YouTube. Stay updated with trending content globally!">
+    <meta name="keywords" content="YouTube, Trending Videos, Watch Now, Viral, Most Searched, Popular Content">
+    <meta name="author" content="YourName">
+    <title>Trending Now on YouTube</title>
+    <link rel="icon" href="https://www.youtube.com/s/desktop/7e4b3d69/img/favicon_144x144.png" type="image/png">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ff0000, #ff8c00);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 100%;
+            padding: 1rem;
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        section.hero {
+            padding: 3rem 1rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            background: #fff;
+            color: #ff0000;
+            padding: 0.8rem 2rem;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ddd;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        🔥 Most Searched Topic: YouTube 🔥
+    </header>
+
+    <section class="hero">
+        <h1>Watch What the World is Watching!</h1>
+        <p>Explore the most trending videos on YouTube right now. Stay connected with the pulse of the internet.</p>
+        <button class="btn" onclick="redirectToYouTube()">Visit YouTube Now</button>
+    </section>
+
+    <footer>
+        &copy; 2025 YourBrand. All rights reserved. This is an informative project based on global search trends.
+    </footer>
+
+    <script>
+        function redirectToYouTube() {
+            window.open("https://www.youtube.com/feed/trending", "_blank");
+        }
+    </script>
+</body>
+
+</html>
